@@ -1,19 +1,19 @@
 python version：https://github.com/IMLHF/PHASEN-PyTorch/blob/master/phasen_torch/sepm.py
 
 ## 这是测试程序：
+---------------------------------------------------------------------------------
 enhanced_folder = 'F:\2-科研\论文写作\LINKnet实验\enhanced_signals_unet3plus\enhanced_signals_unet+++_4s';
 clean_folder = 'F:\2-科研\论文写作\LINKnet实验\processed_4s\processed_clean_testset_wav';
 [Csig, Cbak, Cvol, Pesq, SNR, SegSNR] = evaluate_all(clean_folder, enhanced_folder);
 
-## 输出结果
+输出结果
 fprintf('CSIG: %.4f\n', Csig);
 fprintf('CBAK: %.4f\n', Cbak);
 fprintf('CVOL: %.4f\n', Cvol);
 fprintf('PESQ: %.4f\n', Pesq);
 fprintf('SNR: %.4f\n', SNR);
 fprintf('SegSNR: %.4f\n', SegSNR);
-
-
+---------------------------------------------------------------------------------
 
 
 This folder contains implementations of objective quality measures 
